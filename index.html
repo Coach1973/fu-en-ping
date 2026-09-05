@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>傅恩平｜商務英漢通譯・榮益齋有限公司</title>
+<meta name="description" content="傅恩平 Fu En-ping — 商務英漢通譯，榮益齋有限公司（Gracious Benefacts LLC）負責人。臺南善化。筆譯、口譯、出版與有聲製作；台語聖詩新譯；BNI 大台南南區真鑽分會。">
+<meta property="og:title" content="傅恩平｜商務英漢通譯・榮益齋有限公司">
+<meta property="og:description" content="兩種語言之間，總要有人站著。臺南善化，榮益齋。">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="assets/hero-fields.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+TC:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFAF7;
+  --paper-2:#F5F2EA;
+  --ink:#17140F;
+  --ink-soft:#6E6A61;
+  --ink-faint:#98938A;
+  --rule:#E4E0D6;
+  --rule-strong:#CFC9BB;
+  --seal:#9E2B1E;
+  --seal-tint:#F6E9E5;
+  --night:#17140F;
+  --night-2:#221E17;
+  --night-ink:#EDE9E0;
+  --night-soft:#A49D91;
+  --night-rule:#332D24;
+
+  --serif-latin:"Newsreader",Georgia,serif;
+  --serif-han:"Noto Serif TC","Songti TC",serif;
+  --display:var(--serif-latin),var(--serif-han);
+  --han-display:var(--serif-han),var(--serif-latin);
+  --sans:"IBM Plex Sans","Noto Sans TC","PingFang TC",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+
+  --max:1180px;
+  --ease:cubic-bezier(0.16,1,0.3,1);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-weight:400;font-size:16.5px;line-height:1.75;
+  letter-spacing:.005em;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(rgba(23,20,15,.022) 1px,transparent 1px);
+  background-size:3px 3px;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+::selection{background:var(--seal);color:#fff}
+
+:where(a,button,summary,[tabindex]):focus-visible{
+  outline:2px solid var(--seal);outline-offset:3px;border-radius:2px;
+}
+
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:28px}
+@media(max-width:640px){.wrap{padding-inline:20px}}
+
+/* ── type primitives ─────────────────────────────── */
+.eyebrow{
+  font-family:var(--mono);font-size:11.5px;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);
+}
+.eyebrow.zh{font-family:var(--sans);letter-spacing:.34em;text-transform:none}
+
+h1,h2,h3{margin:0;font-weight:400}
+.h-han{font-family:var(--han-display);font-weight:500;letter-spacing:.02em;line-height:1.25}
+.h-lat{font-family:var(--serif-latin);font-weight:300;font-style:italic;letter-spacing:-.01em;color:var(--ink-soft)}
+
+.lede{font-size:19px;line-height:1.85;color:#38332B;max-width:52ch}
+.small{font-size:14.5px;line-height:1.8;color:var(--ink-soft)}
+.meta{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--ink-faint)}
+
+/* ── section chrome ──────────────────────────────── */
+section{padding-block:clamp(72px,9vw,128px)}
+.rule-top{border-top:1px solid var(--rule)}
+
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:end;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head h2{font-family:var(--han-display);font-weight:500;font-size:clamp(26px,3.4vw,38px);letter-spacing:.03em;line-height:1.3}
+.sec-head .en{font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:clamp(15px,1.6vw,19px);color:var(--ink-faint);white-space:nowrap;padding-bottom:.35em}
+@media(max-width:640px){.sec-head{grid-template-columns:1fr;gap:6px;align-items:start}.sec-head .en{padding-bottom:0}}
+
+/* ── seal mark ───────────────────────────────────── */
+.seal{
+  display:inline-grid;place-items:center;
+  width:78px;height:78px;background:var(--seal);color:#FBF6F2;
+  font-family:var(--han-display);font-weight:600;font-size:17px;line-height:1.18;
+  letter-spacing:.04em;border-radius:3px;
+  writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap;
+  padding:7px 6px;flex:none;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.22);
+}
+.seal.sm{width:54px;height:54px;font-size:12px;padding:5px 4px;line-height:1.15}
+
+/* ── nav ─────────────────────────────────────────── */
+.nav{
+  position:sticky;top:0;z-index:60;
+  background:rgba(251,250,247,.82);backdrop-filter:blur(12px) saturate(1.2);
+  border-bottom:1px solid var(--rule);
+}
+.nav-in{max-width:var(--max);margin-inline:auto;padding:0 28px;height:60px;display:flex;align-items:center;gap:26px}
+.nav-mark{display:flex;align-items:center;gap:11px;text-decoration:none;margin-inline-end:auto}
+.nav-mark .sq{width:22px;height:22px;background:var(--seal);border-radius:2px;display:grid;place-items:center;color:#fff;font-family:var(--han-display);font-size:12px;font-weight:600;line-height:1}
+.nav-mark b{font-family:var(--han-display);font-weight:500;font-size:16.5px;letter-spacing:.08em}
+.nav a.lnk{
+  text-decoration:none;font-size:13.5px;color:var(--ink-soft);
+  padding:4px 0;border-bottom:1px solid transparent;transition:color .18s,border-color .18s;
+}
+.nav a.lnk:hover{color:var(--ink);border-bottom-color:var(--seal)}
+.nav .cta{
+  font-size:13px;text-decoration:none;padding:8px 15px;border:1px solid var(--ink);
+  border-radius:6px;background:var(--ink);color:var(--paper);
+  transition:background .18s,color .18s;
+}
+.nav .cta:hover{background:var(--seal);border-color:var(--seal)}
+@media(max-width:860px){.nav a.lnk{display:none}}
+@media(max-width:640px){.nav-in{padding:0 20px;gap:14px}}
+
+/* ── hero ────────────────────────────────────────── */
+.hero{padding-top:clamp(56px,8vw,104px);padding-bottom:0}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:clamp(28px,5vw,68px);align-items:start}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:36px}}
+
+.hero h1{
+  font-family:var(--han-display);font-weight:500;
+  font-size:clamp(56px,10.5vw,124px);line-height:.98;letter-spacing:.04em;
+  margin:18px 0 0;
+}
+.hero .name-lat{
+  font-family:var(--serif-latin);font-weight:300;font-size:clamp(18px,2.4vw,27px);
+  letter-spacing:.03em;color:var(--ink-soft);margin-top:12px;
+}
+.hero .role{
+  margin-top:26px;padding-top:22px;border-top:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;
+}
+.chip{
+  font-size:13px;padding:5px 12px;border-radius:999px;background:var(--paper-2);
+  border:1px solid var(--rule);color:#4A443B;letter-spacing:.03em;
+}
+.chip.accent{background:var(--seal-tint);border-color:#EBD5CF;color:#7C2417}
+.hero .lede{margin-top:26px}
+
+.hero-aside{
+  border:1px solid var(--rule);border-radius:10px;background:#fff;
+  padding:24px 24px 20px;
+}
+.hero-aside .seal-row{display:flex;gap:16px;align-items:flex-start;margin-bottom:18px}
+.hero-aside dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:9px 16px;font-size:13.5px}
+.hero-aside dt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);padding-top:3px}
+.hero-aside dd{margin:0;color:#37322A}
+.hero-aside dd a{text-decoration-color:var(--rule-strong);text-underline-offset:3px}
+
+.hero-band{margin-top:clamp(48px,7vw,84px);position:relative}
+.hero-band img{width:100%;height:clamp(240px,42vw,460px);object-fit:cover;filter:saturate(.88) contrast(1.02)}
+.hero-band figcaption{
+  margin-top:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+
+/* ── bilingual spine (signature) ─────────────────── */
+.spine{background:var(--night);color:var(--night-ink);border-block:1px solid var(--night-rule)}
+.spine .eyebrow{color:#8A8175}
+.spine h2{color:var(--night-ink)}
+.spine .sec-head .en{color:#8A8175}
+.pairs{border-top:1px solid var(--night-rule)}
+.pair{
+  display:grid;grid-template-columns:minmax(0,1fr) 96px minmax(0,1fr);
+  align-items:center;border-bottom:1px solid var(--night-rule);
+  padding-block:clamp(20px,3vw,30px);gap:12px;
+}
+.pair .zh{font-family:var(--han-display);font-size:clamp(19px,2.5vw,27px);font-weight:400;letter-spacing:.04em;line-height:1.5;transition:color .3s var(--ease)}
+.pair .en{font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:clamp(17px,2.2vw,25px);line-height:1.5;color:var(--night-soft);transition:color .3s var(--ease)}
+.pair .arrow{display:grid;place-items:center;color:#5C5347;font-family:var(--mono);font-size:11px;letter-spacing:.1em}
+.pair .arrow span{display:block;width:100%;height:1px;background:#3D362C;position:relative}
+.pair:hover .en,.pair:focus-within .en{color:var(--night-ink)}
+.pair:hover .zh,.pair:focus-within .zh{color:var(--night-soft)}
+.pair .note{grid-column:1/-1;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:#6B6255;margin-top:8px}
+@media(max-width:760px){
+  .pair{grid-template-columns:1fr;gap:6px}
+  .pair .arrow{display:none}
+  .pair .en{padding-left:16px;border-left:1px solid var(--night-rule)}
+}
+.spine-foot{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap;align-items:baseline;color:var(--night-soft);font-size:14px}
+.spine-foot a{color:var(--night-ink);text-decoration-color:#4A4238;text-underline-offset:4px}
+
+/* ── services bento (uneven) ─────────────────────── */
+.bento{display:grid;grid-template-columns:repeat(6,1fr);border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.cell{border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;gap:11px;background:transparent;transition:background .25s}
+.cell:hover{background:#fff}
+.cell .n{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--ink-faint)}
+.cell h3{font-family:var(--han-display);font-size:clamp(19px,2.2vw,23px);font-weight:500;letter-spacing:.03em}
+.cell .en{font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:14.5px;color:var(--ink-faint);margin-top:-4px}
+.cell p{margin:0;font-size:14.5px;line-height:1.8;color:#4C463D}
+.c-3{grid-column:span 3}.c-2{grid-column:span 2}.c-6{grid-column:span 6}
+.cell.tall{min-height:290px;justify-content:space-between}
+.cell.wide{background:var(--paper-2)}
+.cell .icon{width:26px;height:26px;color:var(--seal)}
+@media(max-width:860px){.bento{grid-template-columns:repeat(2,1fr)}.c-3,.c-2,.c-6{grid-column:span 2}}
+@media(max-width:560px){.bento{grid-template-columns:1fr}.c-3,.c-2,.c-6{grid-column:span 1}}
+
+/* ── company ─────────────────────────────────────── */
+.co{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(0,1fr);gap:clamp(30px,5vw,64px);align-items:center}
+@media(max-width:860px){.co{grid-template-columns:1fr}}
+.co figure{margin:0}
+.co figure img{border-radius:8px}
+.gloss{display:grid;gap:0;border-top:1px solid var(--rule);margin:26px 0 30px}
+.gloss div{display:grid;grid-template-columns:56px 1fr;gap:22px;padding:15px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.gloss .ch{font-family:var(--han-display);font-size:34px;font-weight:500;color:var(--seal);line-height:1;letter-spacing:.02em}
+.gloss p{margin:0;font-size:14.5px;color:#4C463D;line-height:1.75}
+.gloss b{font-weight:500;color:var(--ink)}
+.reg{border:1px solid var(--rule);border-radius:8px;background:#fff;padding:20px 22px}
+.reg dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 18px;font-size:13.5px}
+.reg dt{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);padding-top:2px}
+.reg dd{margin:0;color:#37322A;font-variant-numeric:tabular-nums}
+
+/* ── story ───────────────────────────────────────── */
+.story{background:var(--paper-2);border-block:1px solid var(--rule)}
+.story-body{max-width:64ch;margin-inline:auto}
+.story-body p{font-family:var(--han-display);font-weight:300;font-size:17.5px;line-height:2.05;color:#2E2921;letter-spacing:.015em}
+.story-body p+p{margin-top:1.5em}
+.drop::first-letter{
+  font-family:var(--han-display);font-size:3.1em;line-height:.92;float:left;
+  margin:.06em .14em 0 0;color:var(--seal);font-weight:500;
+}
+.pull{
+  margin:clamp(40px,5vw,60px) 0;padding:0 0 0 clamp(20px,3vw,34px);
+  border-left:2px solid var(--seal);
+}
+.pull q{
+  quotes:none;display:block;font-family:var(--han-display);font-weight:400;
+  font-size:clamp(21px,3vw,29px);line-height:1.75;letter-spacing:.03em;color:var(--ink);
+}
+.pull cite{display:block;margin-top:14px;font-style:normal;font-size:13px;color:var(--ink-faint);font-family:var(--mono);letter-spacing:.05em}
+.treasure{
+  display:flex;gap:22px;align-items:center;justify-content:center;
+  margin:clamp(40px,5vw,58px) auto;padding:26px 30px;max-width:560px;
+  border:1px solid var(--rule-strong);border-radius:8px;background:var(--paper);
+}
+.treasure .word{font-family:var(--han-display);font-size:clamp(40px,7vw,62px);font-weight:600;color:var(--seal);letter-spacing:.14em;line-height:1}
+.treasure p{margin:0;font-size:13.5px;line-height:1.8;color:var(--ink-soft)}
+.story-links{max-width:64ch;margin:36px auto 0;display:flex;flex-wrap:wrap;gap:10px}
+
+/* ── faith / family ──────────────────────────────── */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(30px,5vw,64px);align-items:center}
+@media(max-width:860px){.two{grid-template-columns:1fr}}
+.two img{border-radius:8px}
+.ticks{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:0;border-top:1px solid var(--rule)}
+.ticks li{padding:14px 0 14px 30px;border-bottom:1px solid var(--rule);font-size:15px;color:#3D382F;position:relative;line-height:1.75}
+.ticks li::before{
+  content:"";position:absolute;left:4px;top:23px;width:9px;height:1px;background:var(--seal);
+}
+
+/* ── channel cards ───────────────────────────────── */
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:0;border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.vid{
+  border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  padding:26px 24px 24px;text-decoration:none;display:flex;flex-direction:column;gap:9px;
+  transition:background .22s,transform .22s var(--ease);
+}
+.vid:hover{background:#fff;transform:translateY(-2px)}
+.vid .k{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--ink-faint);display:flex;justify-content:space-between;gap:10px}
+.vid h3{font-family:var(--han-display);font-size:18px;font-weight:500;letter-spacing:.02em;line-height:1.55}
+.vid p{margin:0;font-size:13.5px;color:var(--ink-soft);line-height:1.75}
+.vid .go{margin-top:auto;padding-top:12px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--seal)}
+
+.writ{margin-top:clamp(40px,5vw,56px);border-top:1px solid var(--rule)}
+.writ a,.writ div{
+  display:grid;grid-template-columns:112px minmax(0,1fr) auto;gap:18px;align-items:baseline;
+  padding:17px 0;border-bottom:1px solid var(--rule);text-decoration:none;
+}
+.writ a:hover .t{color:var(--seal)}
+.writ .y{font-family:var(--mono);font-size:12px;color:var(--ink-faint);letter-spacing:.06em}
+.writ .t{font-family:var(--han-display);font-size:16.5px;font-weight:400;letter-spacing:.02em;transition:color .2s;line-height:1.6}
+.writ .s{font-size:12.5px;color:var(--ink-faint);font-family:var(--mono);white-space:nowrap}
+@media(max-width:640px){.writ a,.writ div{grid-template-columns:1fr;gap:5px}.writ .s{white-space:normal}}
+
+/* ── contact ─────────────────────────────────────── */
+.contact{background:var(--night);color:var(--night-ink)}
+.contact h2{color:var(--night-ink)}
+.contact .sec-head .en,.contact .eyebrow{color:#8A8175}
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,70px)}
+@media(max-width:860px){.contact-grid{grid-template-columns:1fr}}
+.contact .lede{color:#C9C2B6}
+.socials{display:grid;gap:0;border-top:1px solid var(--night-rule)}
+.socials a{
+  display:grid;grid-template-columns:26px 96px minmax(0,1fr) auto;gap:16px;align-items:center;
+  padding:16px 4px;border-bottom:1px solid var(--night-rule);text-decoration:none;color:var(--night-ink);
+  transition:background .2s,padding-left .2s var(--ease);
+}
+.socials a:hover{background:var(--night-2);padding-left:10px}
+.socials .ic{width:19px;height:19px;color:#8A8175;transition:color .2s}
+.socials a:hover .ic{color:var(--seal-tint)}
+.socials .pl{font-family:var(--mono);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;color:#8A8175}
+.socials .hd{font-size:14.5px;color:var(--night-ink);overflow-wrap:anywhere}
+.socials .ar{font-family:var(--mono);font-size:12px;color:#5C5347}
+@media(max-width:560px){.socials a{grid-template-columns:22px 1fr auto;gap:12px}.socials .pl{display:none}}
+.card-book{border:1px solid var(--night-rule);border-radius:10px;padding:26px;background:var(--night-2)}
+.card-book .seal{margin-bottom:18px}
+.card-book dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:11px 18px;font-size:13.5px}
+.card-book dt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8A8175;padding-top:3px}
+.card-book dd{margin:0;color:#D8D2C7}
+.card-book dd a{color:#EDE9E0;text-decoration-color:#4A4238;text-underline-offset:4px}
+
+/* ── footer ──────────────────────────────────────── */
+footer{border-top:1px solid var(--rule);padding-block:40px;background:var(--paper)}
+.foot{display:flex;flex-wrap:wrap;gap:14px 32px;justify-content:space-between;align-items:baseline}
+.foot p{margin:0}
+
+/* ── motion ──────────────────────────────────────── */
+.rise{opacity:0;transform:translateY(12px)}
+.rise.in{opacity:1;transform:none;transition:opacity .6s var(--ease),transform .6s var(--ease)}
+.rise.in[style*="--i"]{transition-delay:calc(var(--i) * 80ms)}
+@media(prefers-reduced-motion:reduce){
+  .rise,.rise.in{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+  *{animation-duration:.001ms!important;transition-duration:.001ms!important}
+}
+</style>
+</head>
+<body>
+
+<a href="#main" class="meta" style="position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:99" onfocus="this.style.left='12px';this.style.top='12px'" onblur="this.style.left='-9999px'">跳至主要內容</a>
+
+<nav class="nav" aria-label="主要導覽">
+  <div class="nav-in">
+    <a class="nav-mark" href="#top">
+      <span class="sq" aria-hidden="true">榮</span>
+      <b>傅恩平</b>
+    </a>
+    <a class="lnk" href="#work">通譯服務</a>
+    <a class="lnk" href="#studio">榮益齋</a>
+    <a class="lnk" href="#story">家族故事</a>
+    <a class="lnk" href="#life">信仰與家</a>
+    <a class="lnk" href="#channel">頻道與文字</a>
+    <a class="cta" href="#contact">聯絡・Contact</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="rise">
+        <p class="eyebrow">Business English–Chinese Interpreter ・ Tainan</p>
+        <h1>傅恩平</h1>
+        <p class="name-lat">Fu En-ping</p>
+        <div class="role">
+          <span class="chip accent">商務英漢通譯</span>
+          <span class="chip">會議・隨行口譯</span>
+          <span class="chip">文件筆譯與排版</span>
+          <span class="chip">出版・有聲製作</span>
+        </div>
+        <p class="lede">
+          兩種語言之間，總得有人站著。<br>
+          我做的事很單純：把一方真正的意思，完整、準確、有溫度地送到另一方手上——
+          在談判桌、在展場、在講台、在合約的字裡行間。
+        </p>
+        <p class="small" style="max-width:52ch;margin-top:18px">
+          臺南善化人。曾任職於<strong style="font-weight:500;color:var(--ink)">聯合國</strong>，
+          今天把同一套標準帶回善化的談判桌。<strong style="font-weight:500;color:var(--ink)">榮益齋有限公司</strong>負責人，
+          BNI 大台南南區・真鑽分會成員、BNI Taiwan 全國翻譯團隊成員。
+          長老教會信徒，也把台語聖詩重新譯成能唱的詞。
+        </p>
+      </div>
+
+      <aside class="hero-aside rise" style="--i:1" aria-label="名片">
+        <div class="seal-row">
+          <span class="seal" aria-hidden="true">榮益齋</span>
+          <div>
+            <p class="eyebrow" style="margin:2px 0 6px">The Studio</p>
+            <p style="margin:0;font-family:var(--han-display);font-size:19px;font-weight:500;letter-spacing:.04em">榮益齋有限公司</p>
+            <p style="margin:3px 0 0;font-family:var(--serif-latin);font-style:italic;font-weight:300;color:var(--ink-soft);font-size:15px">Gracious Benefacts LLC</p>
+          </div>
+        </div>
+        <dl>
+          <dt>統編</dt><dd style="font-variant-numeric:tabular-nums">96682355</dd>
+          <dt>設立</dt><dd>2024 年 7 月 4 日</dd>
+          <dt>地址</dt><dd>臺南市善化區東關里中正路 637 號</dd>
+          <dt>語言</dt><dd>英語 ・ 華語 ・ 台語</dd>
+          <dt>經歷</dt><dd>聯合國 ・ Boston University</dd>
+          <dt>社群</dt><dd>
+            <a href="https://www.facebook.com/fuenping" target="_blank" rel="noopener">Facebook</a>・<a href="https://www.instagram.com/fuenpyng/" target="_blank" rel="noopener">Instagram</a>・<a href="https://www.threads.com/@fuenpyng" target="_blank" rel="noopener">Threads</a>・<a href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">YouTube</a>
+          </dd>
+        </dl>
+      </aside>
+    </div>
+
+    <figure class="hero-band rise" style="--i:2;margin-block-end:0">
+      <img src="assets/hero-fields.jpg" alt="臺南平原清晨的甘蔗田，薄霧中有一列電線桿與一棟紅瓦老屋" width="1600" height="900">
+      <figcaption>
+        <span class="meta">臺南 ・ 善化 ・ 新化一帶</span>
+        <span class="meta">語言的起點，是一個具體的地方</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ BILINGUAL SPINE ══════════ -->
+<section class="spine" id="work">
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">What I actually do</p>
+        <h2>一句話，走過兩種語言</h2>
+      </div>
+      <span class="en">A sentence, carried across</span>
+    </div>
+
+    <p class="lede rise" style="color:#C9C2B6;--i:1">
+      通譯不是換字，是換一整套語感、身分與分寸。
+      下面這幾行，是我真的譯過、唱過、也用過的東西。
+    </p>
+
+    <div class="pairs rise" style="--i:2">
+      <div class="pair">
+        <p class="zh" style="margin:0">善牧恩慈歌</p>
+        <div class="arrow" aria-hidden="true"><span></span></div>
+        <p class="en" style="margin:0">The King of Love My Shepherd Is</p>
+        <p class="note">聖詩新譯 ・ 頻道上觀看次數最高的一支，7.6K</p>
+      </div>
+      <div class="pair">
+        <p class="zh" style="margin:0">我是主羊</p>
+        <div class="arrow" aria-hidden="true"><span></span></div>
+        <p class="en" style="margin:0">His Sheep Am I</p>
+        <p class="note">主歌第二節・新譯台語詞（2025）</p>
+      </div>
+      <div class="pair">
+        <p class="zh" style="margin:0">榮益齋</p>
+        <div class="arrow" aria-hidden="true"><span></span></div>
+        <p class="en" style="margin:0">Gracious Benefacts</p>
+        <p class="note">公司英文名 ・ 一個名字，兩邊都要站得住</p>
+      </div>
+      <div class="pair">
+        <p class="zh" style="margin:0">萬國公法</p>
+        <div class="arrow" aria-hidden="true"><span></span></div>
+        <p class="en" style="margin:0">Law of Nations</p>
+        <p class="note">頻道播放清單之一 ・ 11 支</p>
+      </div>
+    </div>
+
+    <p class="spine-foot rise" style="--i:3">
+      <span>需要有人幫你把話說準？</span>
+      <a href="#contact">寫信給我 →</a>
+    </p>
+  </div>
+</section>
+
+<!-- ══════════ SERVICES ══════════ -->
+<section>
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">Services</p>
+        <h2>可以交給我的事</h2>
+      </div>
+      <span class="en">Registered scope, honestly listed</span>
+    </div>
+
+    <div class="bento">
+      <div class="cell c-3 tall rise">
+        <div>
+          <p class="n">01</p>
+          <h3>商務英漢通譯</h3>
+          <p class="en">Business interpreting</p>
+        </div>
+        <p>會議、談判、展場、廠訪、教育訓練的即席與逐步口譯。台上台下我都在——包含事前幫你把簡報講稿順成「講得出口」的英文。這也是我在 BNI 例會的主題簡報題目。</p>
+      </div>
+      <div class="cell c-3 tall rise" style="--i:1">
+        <div>
+          <p class="n">02</p>
+          <h3>文件筆譯・排版</h3>
+          <p class="en">Translation &amp; typesetting</p>
+        </div>
+        <p>合約、簡介、規格書、網站文案、教會與非營利文件。譯完不等於交件：排版、打字、影印製本一併處理，拿到手就是能用的版本。</p>
+      </div>
+      <div class="cell c-2 rise">
+        <p class="n">03</p>
+        <h3>出版與有聲</h3>
+        <p class="en">Publishing &amp; audio</p>
+        <p>圖書、雜誌、報紙、有聲出版與錄音發行——公司登記裡實實在在有的項目。</p>
+      </div>
+      <div class="cell c-2 rise" style="--i:1">
+        <p class="n">04</p>
+        <h3>留・遊學諮詢</h3>
+        <p class="en">Study abroad</p>
+        <p>從選校文件到面試英文，一路陪到能自己開口為止。</p>
+      </div>
+      <div class="cell c-2 rise" style="--i:2">
+        <p class="n">05</p>
+        <h3>藝文與展演</h3>
+        <p class="en">Arts &amp; performance</p>
+        <p>藝文服務、演藝活動、音樂展演空間——語言之外，還做把人聚起來的事。</p>
+      </div>
+      <div class="cell c-6 wide rise">
+        <p class="n">＊ 順帶一提</p>
+        <h3>榮益齋的營業項目裡，還有花卉栽培、糧商、農產品整理與家畜禽飼育。</h3>
+        <p style="max-width:70ch">這不是填錯表格。一間開在善化的公司，把語言、出版、藝文與土地寫在同一張登記表上——先人從山豹、礁坑子一路耕過來的地，和今天在談判桌上講的英文，本來就是同一條線。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STUDIO / COMPANY ══════════ -->
+<section class="rule-top" id="studio">
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">The name</p>
+        <h2>為什麼叫「榮益齋」</h2>
+      </div>
+      <span class="en">Gracious Benefacts LLC</span>
+    </div>
+
+    <div class="co">
+      <div class="rise">
+        <p class="lede" style="max-width:46ch">
+          很多人第一次看到會念一半停住。它不是商標公司，也不是齋飯店——
+          它是一間齋房：一個人坐下來，把字一個一個放對位置的地方。
+        </p>
+        <div class="gloss">
+          <div><span class="ch">榮</span><p><b>榮神。</b>先把最重要的擺在前面。名字的第一個字，是他工作的方向。</p></div>
+          <div><span class="ch">益</span><p><b>益人。</b>一份翻譯若沒有讓對面的人真的得著好處，就還沒有完成。</p></div>
+          <div><span class="ch">齋</span><p><b>書齋。</b>不是工廠、不是平台，是一張桌子、一盞燈、一個願意慢慢校對的人。</p></div>
+        </div>
+        <p class="small" style="max-width:52ch">
+          英文名字登記為 <b style="font-weight:500;color:var(--ink)">Gracious Benefacts LLC</b>——恩典（gracious）與益處（benefacts）。
+          一個做通譯的人，連自己公司的名字都得兩種語言都站得住。
+        </p>
+      </div>
+
+      <div class="rise" style="--i:1">
+        <figure style="margin:0 0 22px">
+          <img src="assets/archive-desk.jpg" alt="深色木桌上攤開一本泛黃的舊冊子，旁邊放著鋼筆、圓框老花眼鏡與一方硃紅印石" width="1200" height="900" loading="lazy">
+        </figure>
+        <div class="reg">
+          <p class="eyebrow" style="margin:0 0 14px">Company record ・ 公開登記資料</p>
+          <dl>
+            <dt>公司</dt><dd>榮益齋有限公司</dd>
+            <dt>英文</dt><dd>Gracious Benefacts LLC</dd>
+            <dt>統編</dt><dd>96682355</dd>
+            <dt>負責人</dt><dd>傅恩平</dd>
+            <dt>資本額</dt><dd>新臺幣 1,000,000 元</dd>
+            <dt>設立</dt><dd>2024 / 07 / 04（核准設立）</dd>
+            <dt>登記</dt><dd>臺南市政府</dd>
+            <dt>地址</dt><dd>臺南市善化區東關里中正路 637 號</dd>
+            <dt>稅籍</dt><dd>翻譯服務・其他教育輔助服務</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STORY ══════════ -->
+<section class="story" id="story">
+  <div class="wrap">
+    <div class="sec-head rise" style="max-width:64ch;margin-inline:auto">
+      <div>
+        <p class="eyebrow">Family ・ 1882–1959</p>
+        <h2>先人在族譜封面上，寫了兩個字</h2>
+      </div>
+    </div>
+
+    <div class="story-body rise" style="--i:1">
+      <p class="drop">那是 2015 年的春天。臺南業餘文史工作者康文榮，從一戶傅家後人手上，找到了他找了很久的東西：一本已經斑黃、內容卻完整詳盡的《基督教傅祥露家族家庭族譜》，連同族譜始作者的私人筆記與家族照片。</p>
+      <p>族譜封面上，用秀氣的毛筆字寫著兩個字。寫字的人是傅祥露（1882–1959）——新化教會的初代執事、後來的長老。他的父親傅水是傅家第一代基督徒，也是這個家族從父姓「傅」的第一代；族譜記載，傅水為平埔族裔，現代歸類為西拉雅族。</p>
+
+      <div class="treasure">
+        <span class="word" aria-hidden="true">寶貝</span>
+        <p>族譜封面上的兩個毛筆字。<br>一個一生沒有離開過臺南丘陵的人，<br>對「什麼最值錢」給出的答案。</p>
+      </div>
+
+      <p>傅祥露十五歲進私塾讀漢文，三年後入大目降公學校（今新化國小）念了三年；公學校畢業後服軍役，跟同隊士官學筆算與日語，退伍時已是將滿二十五歲的知識青年。後來他在官營糖業試驗所一路做到「助手」，退休前月俸最高九十五円——對照當時基層公學校教師約二十円的月薪，是很好的待遇。他用那份薪水在新化郊外的礁坑子置了地產；今日的口埤教會，就蓋在他分給家族晚輩的那塊地上。</p>
+      <p>1921 年新化教會建堂落成，第一次選舉，選出李照耀為長老、傅祥露為執事——那時他受洗才兩年。1926 年，他被選為長老；從糖業試驗所退休後，兩度出任主日學校長，直到七十歲。1959 年秋天的一個夜裡，他在臺北次子家中吃過一碗米粉湯、正要就寢時突發腦溢血辭世，享壽七十八。</p>
+
+      <blockquote class="pull">
+        <q>撫覽史料，遙想故事；原來，先人留給我們真正的無價之寶，是那對道路、真理、生命不變的追求和信靠。</q>
+        <cite>傅恩平，〈留給後人無價寶貝的傅祥露〉，《新使者》第 149 期</cite>
+      </blockquote>
+
+      <p>這篇文章是傅恩平寫的。同一篇後來收進校園書房出版的《信仰的記憶與傳承——台灣教會人物檔案 3》。他也在自己的頻道上，用十一分鐘講了一遍〈安元堂家族史〉。</p>
+      <p>一個把家族族譜讀成史料、把先人的毛筆字當成家訓的人，後來去做了通譯——這件事其實一點都不意外。族譜、聖詩、合約、簡報，都是同一件工作：<b style="font-weight:500">把上一手的意思，完整地交到下一手。</b></p>
+    </div>
+
+    <div class="story-links rise" style="--i:2">
+      <a class="chip" href="https://www.pct.org.tw/article_peop.aspx?strBlockID=B00007&strContentID=C2023072800012&strDesc=Y" target="_blank" rel="noopener">讀原文 ・ 台灣基督長老教會 教會人物誌 ↗</a>
+      <a class="chip" href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">看〈安元堂家族史〉 ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FAITH / FAMILY ══════════ -->
+<section id="life">
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">Faith &amp; home</p>
+        <h2>下班之後，還是同一個人</h2>
+      </div>
+      <span class="en">The same person, off the clock</span>
+    </div>
+
+    <div class="two">
+      <figure class="rise" style="margin:0">
+        <img src="assets/home-piano.jpg" alt="陽光斜照進屋內，一台深色直立鋼琴上攤著樂譜，琴椅旁放著一雙小孩的鞋" width="1200" height="900" loading="lazy">
+      </figure>
+      <div class="rise" style="--i:1">
+        <p class="lede" style="max-width:44ch">
+          家裡有一台鋼琴，還有一位鋼琴老師——他的太太。
+          兩個孩子在旁邊長大，有時候直接被錄進影片裡。
+        </p>
+        <ul class="ticks">
+          <li><b style="font-weight:500">善化長老教會。</b>主日學信息分享、兒童福音夏令營、夏季學校、聖誕音樂會——影片一支一支留在頻道上。</li>
+          <li><b style="font-weight:500">台語聖詩新譯。</b>〈我是主羊〉主歌第二節的台語詞，是他自己重譯的；〈善牧恩慈歌〉在頻道上被看了七千六百多次。</li>
+          <li><b style="font-weight:500">一個共學團的誕生。</b>2024 年拍的三分半，記錄一群家庭決定自己把孩子的學習扛起來。</li>
+          <li><b style="font-weight:500">Amen。</b>他的 Instagram 與 Threads 個人簡介，就這一個字。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CHANNEL ══════════ -->
+<section class="rule-top" id="channel">
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">Channel &amp; writing</p>
+        <h2>他自己錄的、自己寫的</h2>
+      </div>
+      <span class="en">youtube.com/@fuenping</span>
+    </div>
+
+    <div class="vids">
+      <a class="vid rise" href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">
+        <span class="k"><span>聖詩新譯</span><span>7.6K</span></span>
+        <h3>善牧恩慈歌<br><span style="font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:15px;color:var(--ink-soft)">The King of Love My Shepherd Is</span></h3>
+        <p>頻道上最多人看的一支。</p>
+        <span class="go">前往 YouTube ↗</span>
+      </a>
+      <a class="vid rise" style="--i:1" href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">
+        <span class="k"><span>台語詞</span><span>2025</span></span>
+        <h3>『我是主羊』<br><span style="font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:15px;color:var(--ink-soft)">“His Sheep Am I”</span></h3>
+        <p>新譯主歌第二節台語詞。</p>
+        <span class="go">前往 YouTube ↗</span>
+      </a>
+      <a class="vid rise" style="--i:2" href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">
+        <span class="k"><span>家族史</span><span>11:02</span></span>
+        <h3>安元堂家族史</h3>
+        <p>用十一分鐘，把一個家族講一遍。</p>
+        <span class="go">前往 YouTube ↗</span>
+      </a>
+      <a class="vid rise" style="--i:3" href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">
+        <span class="k"><span>紀錄</span><span>2024</span></span>
+        <h3>一個共學團的誕生</h3>
+        <p>幾個家庭，決定自己來。</p>
+        <span class="go">前往 YouTube ↗</span>
+      </a>
+    </div>
+
+    <p class="meta rise" style="margin-top:20px">
+      播放清單：Law of Nations（11）・英文演講・常聽詩歌（11）・大本詩歌・hymn piano・pop piano・TED ・ 共 24 支影片
+    </p>
+
+    <div class="writ rise">
+      <p class="eyebrow" style="margin:26px 0 0">Selected writing ・ 文字作品</p>
+      <a href="https://www.pct.org.tw/article_peop.aspx?strBlockID=B00007&strContentID=C2023072800012&strDesc=Y" target="_blank" rel="noopener">
+        <span class="y">《新使者》149</span>
+        <span class="t">留給後人無價寶貝的傅祥露</span>
+        <span class="s">頁 53–58 ↗</span>
+      </a>
+      <div>
+        <span class="y">校園書房</span>
+        <span class="t">信仰的記憶與傳承——台灣教會人物檔案 3</span>
+        <span class="s">收錄</span>
+      </div>
+      <div>
+        <span class="y">2000 / 11 / 05</span>
+        <span class="t">李登輝就任松年大學名譽校長</span>
+        <span class="s">《台灣教會公報》2540 期</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT ══════════ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head rise">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2>需要一個站得住的譯者</h2>
+      </div>
+      <span class="en">Let’s talk</span>
+    </div>
+
+    <div class="contact-grid">
+      <div class="rise">
+        <p class="lede">
+          不論是一場要談成的會、一份要簽的合約，
+          或是一段想讓外國朋友真的聽懂的話——
+          先告訴我場合、對象與時間，我會誠實告訴你需不需要用到我。
+        </p>
+        <div class="socials">
+          <a href="https://www.facebook.com/fuenping" target="_blank" rel="noopener">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V9H6.5v3H9v9h3v-9h2.5l.5-3H12V6.5a1 1 0 0 1 1-1h2V3z"/></svg>
+            <span class="pl">Facebook</span><span class="hd">/fuenping</span><span class="ar">↗</span>
+          </a>
+          <a href="https://www.instagram.com/fuenpyng/" target="_blank" rel="noopener">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+            <span class="pl">Instagram</span><span class="hd">@fuenpyng<span style="color:#7A7266"> ・ 私人帳號</span></span><span class="ar">↗</span>
+          </a>
+          <a href="https://www.threads.com/@fuenpyng" target="_blank" rel="noopener">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M16.2 11.4c-.3-3-2-4.4-4.3-4.4-2 0-3.4 1-4 2.4M12 20c-4.4 0-7-3-7-8s2.7-8 7-8c3.6 0 6.1 2 6.8 5.3"/><path d="M18.6 9.5c1.6 1.3 2.4 3.1 2.4 5.2 0 3.3-2.2 5.3-5.4 5.3"/><path d="M15.4 11.7c-3.5-.6-5.6.4-5.6 2.4 0 1.4 1.2 2.3 2.7 2.3 2.1 0 3.4-1.6 3.4-4.4"/></svg>
+            <span class="pl">Threads</span><span class="hd">@fuenpyng</span><span class="ar">↗</span>
+          </a>
+          <a href="https://www.youtube.com/@fuenping" target="_blank" rel="noopener">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor" stroke="none"/></svg>
+            <span class="pl">YouTube</span><span class="hd">@fuenping ・ 24 支影片</span><span class="ar">↗</span>
+          </a>
+          <a href="https://tw.linkedin.com/in/%E6%81%A9%E5%B9%B3-%E5%82%85-8b44745a" target="_blank" rel="noopener">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M8 10.5V16M8 7.6v.1M12 16v-3.2c0-1.3.9-2.3 2.1-2.3s2.1 1 2.1 2.3V16"/></svg>
+            <span class="pl">LinkedIn</span><span class="hd">Executive Director, Gracious Benefacts LLC</span><span class="ar">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="card-book rise" style="--i:1">
+        <span class="seal sm" aria-hidden="true">榮益齋</span>
+        <p style="margin:0 0 4px;font-family:var(--han-display);font-size:22px;font-weight:500;letter-spacing:.05em;color:var(--night-ink)">榮益齋有限公司</p>
+        <p style="margin:0 0 20px;font-family:var(--serif-latin);font-style:italic;font-weight:300;font-size:15px;color:#8A8175">Gracious Benefacts LLC</p>
+        <dl>
+          <dt>負責人</dt><dd>傅恩平 ・ Fu En-ping</dd>
+          <dt>專業</dt><dd>商務英漢通譯（口譯・筆譯・排版）</dd>
+          <dt>語言</dt><dd>英語 ・ 華語 ・ 台語</dd>
+          <dt>經歷</dt><dd>曾任職於聯合國 ・ Boston University</dd>
+          <dt>商會</dt><dd>BNI 大台南南區・真鑽分會<br>BNI Taiwan 全國翻譯團隊成員（2025 起）</dd>
+          <dt>地址</dt><dd>臺南市善化區東關里中正路 637 號</dd>
+          <dt>統編</dt><dd style="font-variant-numeric:tabular-nums">96682355</dd>
+          <dt>引薦</dt><dd><a href="https://www.facebook.com/fuenping" target="_blank" rel="noopener">Facebook 私訊最快 ↗</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p class="meta">傅恩平 ・ FU EN-PING ・ 榮益齋有限公司 ・ 統編 96682355</p>
+    <p class="meta">臺南市善化區東關里中正路 637 號</p>
+    <p class="meta">榮神 ・ 益人 ・ 齋</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.rise');
+  if(!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches){
+    els.forEach(function(e){ e.classList.add('in'); }); return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:0.06});
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
